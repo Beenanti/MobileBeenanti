@@ -9,26 +9,25 @@
     >
 
     <!-- Beenanti -->
-    <TextView
+    <ImageView
         android:id="@+id/beenanti"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginLeft="33dp"
+        android:layout_marginLeft="140dp"
         android:layout_marginTop="52dp"
-        android:layout_marginRight="34dp"
-        android:fontFamily="@font/inter_bold"
+        android:layout_marginRight="140dp"
         android:gravity="center_horizontal|top"
+        android:background="@drawable/beenanti_lauchscrn"
         android:lineSpacingExtra="-13sp"
-        android:text="@string/beenanti"
-        android:textAppearance="@style/beenanti" />
+        />
     <!-- Membina dan Memberdayakan -->
     <TextView
         android:id="@+id/membina_dan"
         android:layout_width="0dp"
-        android:layout_height="72dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_marginLeft="30dp"
         android:layout_alignParentRight="true"

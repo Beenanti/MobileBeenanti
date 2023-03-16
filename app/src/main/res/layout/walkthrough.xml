@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Walkthrough -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/walkthrough"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/walkthrough">
+    <!-- HarauStay -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="214dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp">
+        <!-- HarauStay -->
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/beenanti_walkthrough"
+            android:lineSpacingExtra="-26sp"
+            android:gravity="center_horizontal|top"
+            />
+    </RelativeLayout>
+    <!-- PhotoRoom -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/photoroom_2"
+        android:layout_width="306dp"
+        android:layout_height="201dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="257dp"
+        android:background="@drawable/photo_walkthrough"
+        />
+    <!-- Bina Panti -->
+    <TextView
+        android:id="@+id/bina_panti"
+        android:layout_width="322dp"
+        android:layout_height="55dp"
+        android:gravity="center_horizontal|top"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="25dp"
+        android:lineSpacingExtra="3sp"
+        android:text="@string/bina_panti"
+        android:textAppearance="@style/bina_panti"
+        android:translationY="-1.48sp" />
+    <!-- btn buat akun -->
+    <Button
+        android:id="@+id/btn_buatakun_walkthrough"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:text="Buat Akun"
+        android:textAppearance="@style/btn"
+        android:background="@drawable/btn_buatakun"
+        />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="59dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp">
+        <!-- Sudah punya akun? Masuk -->
+        <TextView
+            android:id="@+id/texviw_sudahpunyaakun_walkthrough"
+            android:layout_width="148dp"
+            android:layout_height="48dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-6dp"
+            android:text="@string/sudah_punya"
+            android:textAppearance="@style/sudah_punya"
+            android:lineSpacingExtra="5sp"
+            android:translationY="-2.32sp"
+            android:gravity="center_horizontal|top"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

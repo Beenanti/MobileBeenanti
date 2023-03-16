@@ -10,4 +10,7 @@ Beenanti
     <string name="anda_belum_lg"><i>Anda belum login</i></string>
 
     <string name="welcome_use">Welcome, User!</string>
+    <string name="haraustay">Beenanti</string>
+    <string name="bina_panti">Bina Panti</string>
+    <string name="sudah_punya">Sudah punya akun?\n<u>Masuk</u></string>
 </resources>
