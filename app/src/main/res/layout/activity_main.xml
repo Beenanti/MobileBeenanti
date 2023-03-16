@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/launch_scre"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/launch_scre">
+
+    <!-- Beenanti -->
+    <TextView
+        android:id="@+id/beenanti"
+        android:layout_width="0dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:text="@string/beenanti"
+        android:textAppearance="@style/beenanti"
+        android:lineSpacingExtra="-13sp"
+        android:gravity="center_horizontal|top"
+        />
+    <!-- Membina dan Memberdayakan -->
+    <TextView
+        android:id="@+id/membina_dan"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:text="@string/membina_dan"
+        android:textAppearance="@style/membina_dan"
+        android:lineSpacingExtra="-3sp"
+        android:gravity="center_horizontal|top"
+        />
+    <!--
+    Font family: Inter
+    Line height: 36sp
+    -->
+    <!-- 1 24 -->
+    <ImageView
+        android:id="@+id/some_id"
+        android:layout_width="341dp"
+        android:layout_height="348dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="18dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="235dp"
+        android:background="@dra"
+        />
+</RelativeLayout>
