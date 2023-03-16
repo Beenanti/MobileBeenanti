@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Profil belum login -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profil_belumlg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/profil_belumlg">
+    <!-- Left Actionable -->
+    <RelativeLayout
+        android:id="@+id/rellay_kembali_blmlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/ic_kembali"
+        android:clipToOutline="true" />
+    <!-- User Info -->
+    <RelativeLayout
+        android:id="@+id/user_info"
+        android:layout_width="330dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginRight="31dp">
+
+        <!--Views / Images: Avatars-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/views_image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_views_image"
+            />
+        <!-- Name -->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            />
+        <!-- Welcome, User! -->
+        <TextView
+            android:id="@+id/welcome_use"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/welcome_use"
+            android:textAppearance="@style/welcome_use"
+            android:lineSpacingExtra="10sp"
+            android:translationY="-5.11sp"
+            android:gravity="top"
+            />
+        <!-- Anda belum login -->
+        <TextView
+            android:id="@+id/anda_belum_"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="36dp"
+            android:gravity="top"
+            android:lineSpacingExtra="7sp"
+            android:text="@string/anda_belum_lg"
+            android:textAppearance="@style/anda_belum_login"
+            android:translationY="-3.53sp"
+            android:typeface="normal" />
+    </RelativeLayout>
+    <!-- Btn mulai -->
+    <Button
+        android:id="@+id/controls_bu"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentTop="true"
+        android:text="Mulai"
+        android:textAppearance="@style/btn"
+        android:layout_marginTop="128dp"
+        android:background="@drawable/btn_masuk"/>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rellay_bantuan_blmlogin"
+        android:layout_width="375dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="233dp">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rellay_bantuan_blmlogin_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_centerVertical="true"
+            android:clipToOutline="true"
+            android:background="@drawable/ic_tandatanya"
+            />
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <TextView
+                android:layout_width="63dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Bantuan"
+                android:textAppearance="@style/btn"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relay_tentang_blmlogin"
+        android:layout_width="375dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="289dp">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="375dp"
+            android:layout_height="56dp">
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="24dp"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:id="@+id/texviw_tentang_blmlogin"
+                    android:layout_width="62dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="Tentang"
+                    android:textAppearance="@style/btn"
+                    android:lineSpacingExtra="1sp"
+                    android:gravity="center_vertical"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

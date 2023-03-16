@@ -5,10 +5,9 @@ Beenanti
 </string>
 
     <!-- strings.xml -->
-    <string name="membina_dan">
-Membina dan Memberdayakan
-</string>
-    <string name="btn_mulai">
-Memulai
-</string>
+    <string name="membina_dan">Membina dan Memberdayakan</string>
+    <string name="btn_mulai">Memulai</string>
+    <string name="anda_belum_lg"><i>Anda belum login</i></string>
+
+    <string name="welcome_use">Welcome, User!</string>
 </resources>
