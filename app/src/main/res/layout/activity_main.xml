@@ -52,6 +52,6 @@
         android:layout_marginLeft="18dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="235dp"
-        android:background="@dra"
+        android:background="@drawable/logo_beenanti"
         />
 </RelativeLayout>

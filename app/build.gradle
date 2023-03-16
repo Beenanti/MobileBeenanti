@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.hackme.beenanti'
-    compileSdk 32
+    namespace 'com.beenanti.beenantiapp'
+    compileSdk 33
 
     defaultConfig {
-        applicationId "com.hackme.beenanti"
+        applicationId "com.beenanti.beenantiapp"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

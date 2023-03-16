@@ -1,4 +1,4 @@
-package com.hackme.beenanti
+package com.beenanti.beenantiapp
 
 import org.junit.Test
 

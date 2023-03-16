@@ -1,4 +1,4 @@
-package com.hackme.beenanti
+package com.beenanti.beenantiapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
