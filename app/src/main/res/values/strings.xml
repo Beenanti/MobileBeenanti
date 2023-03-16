@@ -1,8 +1,14 @@
 <resources>
     <string name="app_name">Beenanti</string>
-    <string name="beenanti">string</string>
+    <string name="beenanti">
+Beenanti
+</string>
+
     <!-- strings.xml -->
     <string name="membina_dan">
 Membina dan Memberdayakan
+</string>
+    <string name="btn_mulai">
+Memulai
 </string>
 </resources>

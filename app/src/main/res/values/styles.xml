@@ -11,5 +11,11 @@
     <style name="membina_dan">
         <item name="android:textSize">32sp</item>
         <item name="android:textColor">#090A0A</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
+    </style>
+    <style name="btn">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textColor">#090A0A</item>
+        <item name="android:textSize">15dp</item>
     </style>
 </resources>

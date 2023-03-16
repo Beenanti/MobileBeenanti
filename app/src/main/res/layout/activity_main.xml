@@ -2,27 +2,28 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/launch_scre"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:clipToOutline="true"
-    android:background="@drawable/launch_scre">
+    android:background="@drawable/bg_launchscreen"
+    >
 
     <!-- Beenanti -->
     <TextView
         android:id="@+id/beenanti"
         android:layout_width="0dp"
-        android:layout_height="16dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="33dp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="34dp"
         android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="33dp"
         android:layout_marginTop="52dp"
-        android:text="@string/beenanti"
-        android:textAppearance="@style/beenanti"
-        android:lineSpacingExtra="-13sp"
+        android:layout_marginRight="34dp"
+        android:fontFamily="@font/inter_bold"
         android:gravity="center_horizontal|top"
-        />
+        android:lineSpacingExtra="-13sp"
+        android:text="@string/beenanti"
+        android:textAppearance="@style/beenanti" />
     <!-- Membina dan Memberdayakan -->
     <TextView
         android:id="@+id/membina_dan"
@@ -54,4 +55,18 @@
         android:layout_marginTop="235dp"
         android:background="@drawable/logo_beenanti"
         />
+
+    <Button
+        android:id="@+id/btn_mulai"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:text="@string/btn_mulai"
+        android:textAppearance="@style/btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/btn_mulai" />
 </RelativeLayout>
