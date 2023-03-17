@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Login - Mobile Phone -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_mobil"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/bg_semuascreen">
+    <!-- bagian tombol kembali-->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bartombolkembali">
+        <!-- Left Actionable -->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rellay_tombolkembali_lgmbl"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_centerVertical="true"
+            android:clipToOutline="true"
+            android:background="@drawable/leftactiontombolkembali">
+            <View
+                android:id="@+id/view_tombolkembali_lgmbl"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/ic_kembali"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Selamat datang-->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/bg_selmatdatang_lgnmbl">
+        <!-- Large Title -->
+        <TextView
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="top"
+            android:text="Selamat Datang!"
+            android:textAppearance="@style/membina_dan" />
+        <TextView
+            android:id="@+id/a_caption"
+            android:layout_width="327dp"
+            android:layout_height="24dp"
+            android:text="Masuk ke akun"
+            android:textAppearance="@style/anda_belum_login"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="top"
+            />
+    </RelativeLayout>
+
+    <!--Masukan No hp-->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/bg_border">
+        <!-- Auto Layout -->
+        <RelativeLayout
+            android:layout_width="308dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_rlmasukannohp">
+            <!-- Country Code -->
+            <RelativeLayout
+                android:id="@+id/country_cod"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+
+                android:background="@drawable/bg_rlmasukannohp">
+                <!-- bendera -->
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/img_bendera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/bendera"
+                        />
+                </RelativeLayout>
+                <!-- kode no negara-->
+                <TextView
+                    android:id="@+id/texvie_kodenohp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="-3dp"
+                    android:gravity="center"
+                    android:text="+62"
+                    android:textAppearance="@style/anda_belum_login" />
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/rellay_btn_nohp_bawah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clipToOutline="true"
+                    android:background="@drawable/ic_panahbawah"
+                    android:layout_marginLeft="55dp"
+                    />
+                <!-- Mobile number -->
+                <EditText
+                    android:id="@+id/mobile_numb"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="Nomot HandPhone"
+                    android:textColor="@color/black"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="5dp"
+                    android:textColorHint="#918B8B"
+                    android:textCursorDrawable="@drawable/bg_kursor"
+                    />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- Anda akan menerima verifikasi SMS yang mungkin menerapkan tarif pesan dan data. -->
+    <TextView
+        android:id="@+id/anda_akan_m"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:text="Anda akan menerima verifikasi SMS yang mungkin menerapkan tarif pesan dan data."
+        android:textAppearance="@style/anda_akan_m"
+        android:lineSpacingExtra="1sp"
+        android:translationY="-0.74sp"
+        android:gravity="top"
+        />
+
+    <!-- buton masuk-->
+    <Button
+        android:id="@+id/btn_mulai_lognohp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="Masuk"
+        android:textAppearance="@style/btn"
+        android:background="@drawable/btn_masuk"
+        />
+
+
+    <!-- btn email saja-->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rellay_btn_emailsaja"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/bg_emailsaja">
+        <!-- Text -->
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Gunakan email, Langsung"
+            android:textAppearance="@style/emailsaja"
+            android:lineSpacingExtra="-3sp"
+            android:gravity="center_horizontal|center_vertical"
+            />
+            </RelativeLayout>
+
+
+        </RelativeLayout>

@@ -9,20 +9,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ead8339-4797-4f04-ace3-150cb39c11f5" name="Changes" comment="Lauch screen, profil belum login, dan walkthrough selesai, font famili yaitu inter sudah dimasukan, perubahan pada style.xml, strings.xml,">
+    <list default="true" id="6ead8339-4797-4f04-ace3-150cb39c11f5" name="Changes" comment="perbaiki beberapa drawabel dihpus dan disesuaikan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/launch_scre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/profil_belumlg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/walkthrough.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_semuascreen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profilblmlogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profilblmlogin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/walkthrough.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/walkthrough.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/beenanti/beenantiapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/beenanti/beenantiapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\RESLAB\.android\avd\Pixel_3a_API_33_x86_64.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[eb60a727]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -47,6 +44,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,7 +61,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../APP" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678969208999</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="perbaiki beberapa drawabel dihpus dan disesuaikan">
+      <created>1679023660702</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679023660702</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +198,7 @@
     <MESSAGE value="Lauch screen selesai, font famili yaitu inter sudah dimasukan, perubahan pada style.xml, strings.xml," />
     <MESSAGE value="Lauch screen, profil belum login selesai, font famili yaitu inter sudah dimasukan, perubahan pada style.xml, strings.xml," />
     <MESSAGE value="Lauch screen, profil belum login, dan walkthrough selesai, font famili yaitu inter sudah dimasukan, perubahan pada style.xml, strings.xml," />
-    <option name="LAST_COMMIT_MESSAGE" value="Lauch screen, profil belum login, dan walkthrough selesai, font famili yaitu inter sudah dimasukan, perubahan pada style.xml, strings.xml," />
+    <MESSAGE value="perbaiki beberapa drawabel dihpus dan disesuaikan" />
+    <option name="LAST_COMMIT_MESSAGE" value="perbaiki beberapa drawabel dihpus dan disesuaikan" />
   </component>
 </project>
