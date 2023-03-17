@@ -6,7 +6,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:clipToOutline="true"
-    android:background="@drawable/walkthrough">
+    android:background="@drawable/bg_semuascreen">
     <!-- HarauStay -->
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -59,7 +59,7 @@
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="59dp"
         android:layout_alignParentRight="true"
         android:layout_marginRight="59dp"
         android:layout_alignParentBottom="true"
