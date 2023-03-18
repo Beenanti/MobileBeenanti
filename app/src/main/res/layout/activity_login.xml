@@ -125,7 +125,7 @@
         android:id="@+id/register_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="88dp"
         android:background="@drawable/btn_masuk"
         android:enabled="true"
         android:text="@string/register"

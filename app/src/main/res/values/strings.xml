@@ -23,5 +23,5 @@ Beenanti
     <string name="register_title">Pendaftaran</string>
     <string name="register_body">Untuk dapat menikmati semua fitur pada Beenanti, silahkan daftarkan data Anda terlebih dahulu.</string>
     <string name="tos_agreement">Dengan melanjutkan, Anda menyetujui Persyaratan Layanan dan Kebijakan Privasi Kami</string>
-    <string name="to_login">Sudah punya akun? Silahkan klik tombol ini untuk login</string>
+    <string name="to_login">Saya sudah memiliki akun</string>
 </resources>

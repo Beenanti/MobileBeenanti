@@ -88,6 +88,6 @@
     <style name="clickable_text">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/yellow_700</item>
-        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:fontFamily">@font/inter_bold</item>
     </style>
 </resources>
