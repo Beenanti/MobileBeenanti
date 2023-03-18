@@ -13,4 +13,12 @@ Beenanti
     <string name="haraustay">Beenanti</string>
     <string name="bina_panti">Bina Panti</string>
     <string name="sudah_punya">Sudah punya akun?\n<u>Masuk</u></string>
+    <string name="email_hint">Email</string>
+    <string name="email_example">Contoh: beenanti@email.com</string>
+    <string name="full_name_hint">Nama Lengkap</string>
+    <string name="password_hint">Password</string>
+    <string name="password_minimum_character">Minimal 6 karakter</string>
+    <string name="password_confirmation_hint">Konfirmasi password</string>
+    <string name="register">Register</string>
+    <string name="tos_agreement">Dengan melanjutkan, Anda menyetujui Persyaratan Layanan dan Kebijakan Privasi Kami</string>
 </resources>
