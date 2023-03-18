@@ -5,7 +5,7 @@
         <item name="android:windowTranslucentStatus">true</item>
         <item name="android:windowTranslucentNavigation">true</item>
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#F4CD00</item>r
+        <item name="colorPrimary">#F4CD00</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
