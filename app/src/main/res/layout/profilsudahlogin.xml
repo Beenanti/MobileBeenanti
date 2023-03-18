@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Profil sudah login -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profil_suda"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/bg_semuascreen">
+    <!-- btn kembali-->
+    <RelativeLayout
+        android:id="@+id/rellay_btnkembali_sudahlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginRight="23dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/ic_kembali"
+        android:clipToOutline="true" />
+
+    <!--Foto pp-->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/views_image">
+        <!-- Foto pp -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fotopp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/fotopp"/>
+    </RelativeLayout>
+
+    <!-- User Info -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="28dp">
+        <!-- Name dan email -->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true">
+            <!-- Nama -->
+            <TextView
+                android:id="@+id/texvie_namanuser_profilsdhlogin"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="7dp"
+                android:gravity="center_horizontal|top"
+                android:text="william"
+                android:textAppearance="@style/membina_dan" />
+            <!-- email user-->
+            <TextView
+                android:id="@+id/texvie_emailuser"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="kiki@gamil.com"
+                android:textAppearance="@style/anda_belum_login" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--btn lihat profil-->
+    <Button
+        android:id="@+id/controls_bu"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:text="Lihat Profil"
+        android:textAppearance="@style/btn"
+        android:background="@drawable/btn_masuk"
+        />
+
+    <!-- List -->
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="284dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="319dp"
+        android:gravity="top">
+        <!--notivikasi-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top">
+            <RelativeLayout
+                android:id="@+id/relay_btnotifikasi_profilsudahlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:clipToOutline="true"
+                    android:src="@drawable/ic_loneng"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notofikasi"
+                    android:layout_marginLeft="35dp"
+                    android:textAppearance="@style/anda_belum_login"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--btn histori-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp">
+            <RelativeLayout
+                android:id="@+id/relay_btnhistori_profilsudahlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:clipToOutline="true"
+                    android:src="@drawable/ic_histori"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Histori"
+                    android:layout_marginLeft="35dp"
+                    android:textAppearance="@style/anda_belum_login"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--btn bantuan-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+            <RelativeLayout
+                android:id="@+id/relay_btnbantuan_profilsudahlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:clipToOutline="true"
+                    android:src="@drawable/ic_bantuan"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bantuan"
+                    android:layout_marginLeft="35dp"
+                    android:textAppearance="@style/anda_belum_login"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--btn tentang-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="105dp">
+            <RelativeLayout
+                android:id="@+id/relay_btntentang_profilsudahlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang"
+                    android:layout_marginLeft="35dp"
+                    android:textAppearance="@style/anda_belum_login"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--btn Keluar-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp">
+            <RelativeLayout
+                android:id="@+id/relay_btnkeluar_profilsudahlogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Keluar"
+                    android:layout_marginLeft="35dp"
+                    android:textAppearance="@style/anda_belum_login"/>
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>
