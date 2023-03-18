@@ -19,6 +19,9 @@ Beenanti
     <string name="password_hint">Password</string>
     <string name="password_minimum_character">Minimal 6 karakter</string>
     <string name="password_confirmation_hint">Konfirmasi password</string>
-    <string name="register">Register</string>
+    <string name="register">Registrasi</string>
+    <string name="register_title">Pendaftaran</string>
+    <string name="register_body">Untuk dapat menikmati semua fitur pada Beenanti, silahkan daftarkan data Anda terlebih dahulu.</string>
     <string name="tos_agreement">Dengan melanjutkan, Anda menyetujui Persyaratan Layanan dan Kebijakan Privasi Kami</string>
+    <string name="to_login">Sudah punya akun? Silahkan klik tombol ini untuk login</string>
 </resources>
