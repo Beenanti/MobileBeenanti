@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Detail profil -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_prof"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/bg_semuascreen">
+
+    <!--navbar atas-->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/bars_nav_ba"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp">
+        <!-- btn kembali-->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rellay_tombolkembali_dtlprfl"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="18dp"
+            android:layout_centerVertical="true"
+            android:clipToOutline="true">
+            <!-- Vector -->
+            <View
+                android:id="@+id/vector"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/ic_kembali"
+                />
+        </RelativeLayout>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="98dp"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Detail Profil"
+            android:textAppearance="@style/anda_belum_login"
+            android:lineSpacingExtra="-4sp"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+    </RelativeLayout>
+
+    <!--foto pp-->
+    <RelativeLayout
+        android:id="@+id/views_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/views_image">
+        <!-- Foto pp -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fotopp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/fotopp" />
+    </RelativeLayout>
+
+    <!--nama lengkap-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="213dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Nama Lengkap"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_namalengkap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Nama Lengkap"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:layout_marginLeft="160dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--password-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="253dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Password"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Nama Lengkap"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:inputType="textPassword"
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="50dp"
+                />
+
+            <!-- btn ubah psswd-->
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--NO Hp-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="293dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Nomor Hp"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_nohp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="081266672906"
+                android:inputType="phone"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:layout_marginLeft="160dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Email-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="333dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Email"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_emailuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="kiki@gmail.com"
+                android:inputType="textEmailAddress"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:layout_marginLeft="160dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Tempat Tanggal Lahir-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="373dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Tempat, Tanggal Lahir"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_tempattanggallahir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Padang, 02 Oktober 2001"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:layout_marginLeft="160dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--Jenis Kelamin-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="413dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Jenis Kelamin"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_jeniskelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Laki-laki"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:layout_marginLeft="160dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--pekerjaan-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="453dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="24dp"
+            android:layout_centerVertical="true">
+            <!-- Content is here -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Pekerjaan"
+                android:textAppearance="@style/profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="center_vertical"
+                />
+            <TextView
+                android:id="@+id/texvie_pekerjaan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="CEO"
+                android:textAppearance="@style/isi_profil"
+                android:lineSpacingExtra="1sp"
+                android:gravity="right"
+                android:layout_marginLeft="160dp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--btn ubah profil-->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rellay_btn_ubahprofil"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="33dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/btn_mulai"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubah Profil"
+            android:textAppearance="@style/btn"/>
+    </RelativeLayout>
+
+
+    <!-- btn ubah password-->
+    <RelativeLayout
+        android:id="@+id/rellay_btn_ubahpaswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="295dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="255dp"
+        android:gravity="center"
+        android:background="@drawable/bg_btnubahpasswd">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubah"
+            android:gravity="center"
+            android:textAppearance="@style/isi_profil"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

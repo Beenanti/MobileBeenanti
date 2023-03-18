@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
 //    private lateinit var btnmulai : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.profilsudahlogin)
+        setContentView(R.layout.detailprofil)
 //        btnmulai = findViewById(R.id.btn_mulai)
 //        btnmulai.setOnClickListener{
 //            val intent = Intent(this@MainActivity, ProfilblmloginActivity::class.java)

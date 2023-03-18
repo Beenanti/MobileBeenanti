@@ -138,6 +138,7 @@
                     android:layout_marginLeft="80dp"
                     android:layout_marginRight="5dp"
                     android:textColorHint="#918B8B"
+                    android:inputType="phone"
                     android:textCursorDrawable="@drawable/bg_kursor"
                     />
 
