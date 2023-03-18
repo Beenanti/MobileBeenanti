@@ -9,12 +9,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ead8339-4797-4f04-ace3-150cb39c11f5" name="Changes" comment="pembuatan profil sudah login">
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+    <list default="true" id="6ead8339-4797-4f04-ace3-150cb39c11f5" name="Changes" comment="datail profil selesai">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/beenanti/beenantiapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/beenanti/beenantiapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/login_mobilephone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/login_mobilephone.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_launchscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_launchscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/detailprofil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/detailprofil.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/profilsudahlogin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/profilsudahlogin.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679131956845</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="datail profil selesai">
+      <created>1679139035702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679139035702</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +234,7 @@
     <MESSAGE value="screen login mobile selesai" />
     <MESSAGE value="pembuatan logic dan activitinya" />
     <MESSAGE value="pembuatan profil sudah login" />
-    <option name="LAST_COMMIT_MESSAGE" value="pembuatan profil sudah login" />
+    <MESSAGE value="datail profil selesai" />
+    <option name="LAST_COMMIT_MESSAGE" value="datail profil selesai" />
   </component>
 </project>
