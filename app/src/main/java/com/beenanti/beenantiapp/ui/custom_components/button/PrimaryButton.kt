@@ -33,6 +33,7 @@ class PrimaryButton: AppCompatButton {
         super.onDraw(canvas)
         background = if (isEnabled) enabledColorBackground else disabledColorBackground
 
+        height = 48
         textSize = 16f
         gravity = Gravity.CENTER
         setTextColor(ContextCompat.getColor(context, android.R.color.black))
