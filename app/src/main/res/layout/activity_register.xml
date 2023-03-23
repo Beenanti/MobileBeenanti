@@ -116,6 +116,7 @@
 
         <CheckBox
             android:layout_width="wrap_content"
+            android:buttonTint="@color/yellow_500"
             android:layout_height="wrap_content"
             android:text="@string/tos_agreement" />
 

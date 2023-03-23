@@ -74,7 +74,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="96dp"
-        android:background="@drawable/btn_masuk"
+        android:background="@drawable/button_background"
         android:enabled="true"
         android:text="@string/login_button"
         android:textColor="@color/black"

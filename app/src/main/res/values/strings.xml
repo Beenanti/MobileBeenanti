@@ -4,6 +4,9 @@
 Beenanti
 </string>
 
+    <!--Lorem Ipsum-->
+    <string name="lorem_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula elementum neque vel accumsan. Aliquam tempor ligula ut tortor pharetra, non laoreet dui porta. Integer at tempus justo. Phasellus justo eros, pharetra in vehicula in, venenatis non dolor. Phasellus malesuada purus quis eros scelerisque fermentum.</string>
+
     <!-- strings.xml -->
     <string name="membina_dan">Membina dan Memberdayakan</string>
     <string name="btn_mulai">Memulai</string>
@@ -28,4 +31,19 @@ Beenanti
     <string name="login_body">Selamat datang kembali!</string>
     <string name="login_button">Masuk</string>
     <string name="to_register">Belum mempunyai akun? Daftar sekarang disini!</string>
+    <string name="panti_detail">Detail Panti Asuhan</string>
+    <string name="other_menu">Menu lainnya</string>
+    <string name="donate_label">Donasi</string>
+    <string name="karya_label">Karya</string>
+    <string name="visits_label">Kunjungan</string>
+    <string name="volunteer_label">Relawan</string>
+    <string name="profile_label">Profil</string>
+    <string name="phone_number_label">No. HP</string>
+    <string name="instagram_label">Instagram</string>
+    <string name="total_children_label">Jumlah Anak</string>
+    <string name="pic_label">Pengelola</string>
+    <string name="needs_label">Kebutuhan</string>
+    <string name="sandang_label">Sandang</string>
+    <string name="pangan_label">Pangan</string>
+    <string name="papan_label">Papan</string>
 </resources>
