@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_weight="0.8"
-                    android:text="Limau Manis, Pauh, Padang City, West Sumatra 25175 Indonesia, Earth Solar System" />
+                    android:text="@string/address_dummy" />
 
             </LinearLayout>
 
@@ -300,7 +300,7 @@
                     style="@style/paragraph1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=": 50 anak" />
+                    android:text="@string/total_children" />
             </LinearLayout>
 
             <LinearLayout

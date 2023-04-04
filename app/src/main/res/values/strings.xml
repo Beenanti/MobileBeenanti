@@ -8,6 +8,7 @@ Beenanti
     <string name="lorem_paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula elementum neque vel accumsan. Aliquam tempor ligula ut tortor pharetra, non laoreet dui porta. Integer at tempus justo. Phasellus justo eros, pharetra in vehicula in, venenatis non dolor. Phasellus malesuada purus quis eros scelerisque fermentum.</string>
 
     <!-- strings.xml -->
+    <string name="beenanti_title">Beenanti</string>
     <string name="membina_dan">Membina dan Memberdayakan</string>
     <string name="btn_mulai">Memulai</string>
     <string name="anda_belum_lg"><i>Anda belum login</i></string>
@@ -46,4 +47,16 @@ Beenanti
     <string name="sandang_label">Sandang</string>
     <string name="pangan_label">Pangan</string>
     <string name="papan_label">Papan</string>
+    <string name="welcome_home">Selamat datang,</string>
+    <string name="address_dummy">Limau Manis, Pauh, Padang City, West Sumatra 25175 Indonesia, Earth Solar System</string>
+    <string name="total_children"> 50 anak</string>
+    <string name="contentDesc_panti_photo">Foto Panti Asuhan</string>
+    <string name="home_panti_title">Title test: %1$s</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nearby_panti_title">Panti Terdekat</string>
+    <string name="freq_update_panti_title">Panti Terupdate</string>
+    <string name="total_children_panti_title">Banyak Anak di Panti</string>
+
+    <!--    Parameter String-->
+    <string name="total_children_card">%1$s anak</string>
 </resources>
